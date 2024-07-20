@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p class="text-white text-center m-0">
+    <p class="copyRightText text-white text-center m-0">
       Copyright ©2021 拼拼 All rights reserved.
     </p>
   </footer>
@@ -12,7 +12,7 @@
   padding: 32px 20px;
 }
 
-p {
+.copyRightText {
   letter-spacing: 0.2px;
 }
 </style>
