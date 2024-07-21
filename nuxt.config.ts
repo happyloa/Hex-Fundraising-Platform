@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       "Noto+Sans+TC": true,
+      "Baloo+Tamma+2": true,
     },
     display: "swap",
   },
