@@ -1,5 +1,5 @@
 <template>
-  <div class="announcementContainer rounded-3" role="alert">
+  <div class="announcementContainer rounded-3 mb-4" role="alert">
     <p class="announcementMsg m-0">
       專案募資中！<br />
       在
