@@ -8,8 +8,12 @@
         拍出會動的照片｜LivePhotos 魔法拍立得
       </h1>
       <div class="row">
-        <div class="col-12 col-md-6">1</div>
-        <div class="col-12 col-md-6">2</div>
+        <div class="col-md-6">
+          <ProductImage />
+        </div>
+        <div class="col-md-6">
+          <ProductInfo />
+        </div>
       </div>
     </div>
   </section>
