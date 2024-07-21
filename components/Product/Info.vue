@@ -17,9 +17,7 @@
     </div>
   </div>
   <ProductIcons />
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
+  <ProductAnnouncement />
 </template>
 
 <style scoped>
