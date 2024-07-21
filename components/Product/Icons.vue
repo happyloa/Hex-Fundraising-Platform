@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex gap-4">
+  <div class="d-flex gap-4 mb-3">
     <img src="/icon/icon_good01.svg" class="icon" alt="收藏" />
     <img src="/icon/icon_good02.svg" class="icon" alt="一定是大拇指" />
     <img src="/icon/icon_good03.svg" class="icon" alt="品質保證" />
