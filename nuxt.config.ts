@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  modules: ["usebootstrap", "@nuxtjs/google-fonts"],
+  modules: ["usebootstrap", "@nuxtjs/google-fonts", "@nuxt/ui"],
   googleFonts: {
     families: {
       "Noto+Sans+TC": true,
