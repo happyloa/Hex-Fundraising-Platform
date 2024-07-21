@@ -1,10 +1,11 @@
 <template>
   <section class="wrapper">
     <div class="container">
-      <span class="productCategory text-white fw-bold rounded-1 mb-1"
+      <span
+        class="productCategory d-inline-block text-white fw-bold rounded-1 mb-1"
         >魔法科技</span
       >
-      <h1 class="heading fs-2 fw-bold mb-4">
+      <h1 class="productName fs-2 fw-bold mb-4">
         拍出會動的照片｜LivePhotos 魔法拍立得
       </h1>
       <div class="row">
@@ -29,11 +30,12 @@
 }
 
 .productCategory {
-  background: #858377;
+  background-color: #858377;
+  font-size: 12px;
   padding: 1px 16px 3px;
 }
 
-.heading {
+.productName {
   color: #494846;
   letter-spacing: 3px;
 }
