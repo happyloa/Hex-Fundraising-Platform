@@ -9,7 +9,10 @@
       </h1>
       <div class="row">
         <div class="col-md-6">
-          <ProductImage />
+          <img
+            src="/image/produt_image.webp"
+            class="img-fluid"
+            alt="募資商品圖片" />
         </div>
         <div class="col-md-6">
           <ProductInfo />
