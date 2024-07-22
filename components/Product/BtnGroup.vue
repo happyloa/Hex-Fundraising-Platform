@@ -1,11 +1,13 @@
 <template>
-  <button
-    class="supportBtn btn w-100 fs-5 fw-bold rounded-pill mb-2"
-    type="button">
-    贊助專案
-  </button>
-  <div class="row">
-    <div class="col-md-7">
+  <div class="row g-2">
+    <div class="col-12">
+      <button
+        class="supportBtn btn w-100 fs-5 fw-bold rounded-pill"
+        type="button">
+        贊助專案
+      </button>
+    </div>
+    <div class="col-6 col-md-7">
       <button
         class="actionBtn btn w-100 fs-5 fw-bold rounded-pill"
         type="button">
@@ -13,7 +15,7 @@
         追蹤專案
       </button>
     </div>
-    <div class="col-md-5">
+    <div class="col-6 col-md-5">
       <button
         class="actionBtn btn w-100 fs-5 fw-bold rounded-pill"
         type="button">
