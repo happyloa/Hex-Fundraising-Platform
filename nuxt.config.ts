@@ -9,7 +9,12 @@ export default defineNuxtConfig({
     },
   },
   // 使用到的套件
-  modules: ["usebootstrap", "@nuxtjs/google-fonts", "@nuxt/ui"],
+  modules: [
+    "usebootstrap",
+    "@nuxtjs/google-fonts",
+    "@nuxt/ui",
+    "@vesp/nuxt-fontawesome",
+  ],
   // 網站上使用到的字型（來自 @nuxtjs/google-fonts）
   googleFonts: {
     families: {
@@ -17,5 +22,11 @@ export default defineNuxtConfig({
       "Baloo+Tamma+2": true,
     },
     display: "swap",
+  },
+  // 增加 Font Awesome icon 到網站上
+  fontawesome: {
+    icons: {
+      solid: ["heart", "share-nodes"],
+    },
   },
 });

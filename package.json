@@ -15,5 +15,11 @@
     "nuxt": "^3.12.4",
     "usebootstrap": "^3.5.19",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@vesp/nuxt-fontawesome": "^1.0.4"
   }
 }
