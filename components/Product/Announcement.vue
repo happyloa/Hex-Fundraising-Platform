@@ -4,7 +4,7 @@
       專案募資中！<br />
       在
       <time class="announcementTime lh-base fw-bold">2021/06/14 23:59</time>
-      募資結束前，您都可以贊助我們！
+      募資結束前，您都可以贊助此計畫。
     </p>
   </div>
 </template>
