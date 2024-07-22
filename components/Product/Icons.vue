@@ -1,22 +1,34 @@
 <template>
   <div class="d-flex gap-4 mb-3">
     <UTooltip text="收藏" :popper="{ placement: 'top', gpuAcceleration: true }">
-      <img src="/icon/icon_good01.svg" class="icon" alt="收藏" />
+      <div class="d-flex align-items-center">
+        <img src="/icon/icon_good01.svg" class="icon mr-2" alt="收藏" />
+        <span class="iconText d-md-none">認證標章</span>
+      </div>
     </UTooltip>
     <UTooltip
       text="一定是大拇指"
       :popper="{ placement: 'top', gpuAcceleration: true }">
-      <img src="/icon/icon_good02.svg" class="icon" alt="一定是大拇指" />
+      <div class="d-flex align-items-center">
+        <img src="/icon/icon_good02.svg" class="icon mr-2" alt="一定是大拇指" />
+        <span class="iconText d-md-none">品質保證</span>
+      </div>
     </UTooltip>
     <UTooltip
       text="品質保證"
       :popper="{ placement: 'top', gpuAcceleration: true }">
-      <img src="/icon/icon_good03.svg" class="icon" alt="品質保證" />
+      <div class="d-flex align-items-center">
+        <img src="/icon/icon_good03.svg" class="icon mr-2" alt="品質保證" />
+        <span class="iconText d-md-none">原生創意</span>
+      </div>
     </UTooltip>
     <UTooltip
       text="品質保證"
       :popper="{ placement: 'top', gpuAcceleration: true }">
-      <img src="/icon/icon_good04.svg" class="icon" alt="品質保證" />
+      <div class="d-flex align-items-center">
+        <img src="/icon/icon_good04.svg" class="icon mr-2" alt="品質保證" />
+        <span class="iconText d-md-none">人氣王</span>
+      </div>
     </UTooltip>
   </div>
 </template>
@@ -30,5 +42,10 @@
 
 .icon:hover {
   transform: scale(1.1);
+}
+
+.iconText {
+  color: #636057;
+  font-size: 12px;
 }
 </style>
