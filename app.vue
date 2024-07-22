@@ -1,3 +1,11 @@
+<script setup>
+useHead({
+  meta: [
+    { name: "description", content: "六角學院募資平臺公開設計稿切版練習。" },
+  ],
+});
+</script>
+
 <template>
   <NuxtRouteAnnouncer />
   <LayoutHeader />
@@ -6,6 +14,7 @@
 </template>
 
 <style>
+/* 使用全域選擇器，讓網站上所有文字的預設字型是思源黑體 */
 * {
   font-family: "Noto Sans TC", sans-serif;
 }
