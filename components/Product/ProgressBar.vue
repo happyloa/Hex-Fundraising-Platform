@@ -13,7 +13,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .progressBarTrack {
   background-color: #eeeeee;
   margin-bottom: 20px;
