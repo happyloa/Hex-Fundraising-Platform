@@ -8,7 +8,7 @@
       <h1 class="productName fs-2 fw-bold mb-3 mb-sm-4">
         拍出會動的照片｜<br class="d-sm-none" />LivePhotos 魔法拍立得
       </h1>
-      <div class="row">
+      <div class="row gy-3">
         <div class="col-md-6">
           <img
             src="/image/produt_image.webp"
