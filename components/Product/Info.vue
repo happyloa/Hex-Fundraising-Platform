@@ -18,6 +18,7 @@
   </div>
   <ProductIcons />
   <ProductAnnouncement />
+  <ProductBtnGroup />
 </template>
 
 <style scoped>
