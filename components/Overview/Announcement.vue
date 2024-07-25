@@ -1,5 +1,5 @@
 <template>
-  <div class="announcementContainer rounded-3 mb-4" role="alert">
+  <div class="announcementContainer rounded-3 mb-3 mb-sm-4" role="alert">
     <p class="announcementMsg m-0">
       專案募資中！<br />
       在
@@ -18,9 +18,17 @@
 
 .announcementMsg {
   color: #636057;
+  line-height: 20px;
 }
 
 .announcementTime {
   color: #000027;
+}
+
+@media (max-width: 576px) {
+  .announcementMsg {
+    font-size: 14px;
+    text-align: justify;
+  }
 }
 </style>

@@ -48,6 +48,7 @@
   .productName {
     color: #53524f;
     letter-spacing: 2.25px;
+    line-height: 36px;
   }
 }
 </style>

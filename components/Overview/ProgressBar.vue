@@ -24,4 +24,10 @@
   color: #858377;
   font-size: 12px;
 }
+
+@media (max-width: 576px) {
+  .progressBarTrack {
+    margin-bottom: 8px;
+  }
+}
 </style>

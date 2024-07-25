@@ -1,19 +1,19 @@
 <template>
-  <h2 class="goal">目標 <span class="BalooTamma2">$600,000</span></h2>
-  <p class="m-0">
-    <span class="amountRaised BalooTamma2 fs-2 fw-bolder">$280,047</span>
-  </p>
+  <h2 class="goal m-0">目標 <span class="BalooTamma2">$600,000</span></h2>
+  <span class="amountRaised BalooTamma2 fs-2 fw-bolder">$280,047</span>
   <OverviewProgressBar />
   <div class="row mb-2">
     <div class="col-6">
       <h3 class="statusHeading m-0">贊助人數</h3>
-      <span class="statusNumber BalooTamma2 fw-bold fs-2">1374 </span>
-      <span class="statusUnit fw-bold fs-4">人</span>
+      <span class="statusNumber BalooTamma2 fw-bold"
+        >1374 <span class="statusUnit">人</span></span
+      >
     </div>
     <div class="col-6">
       <h3 class="statusHeading m-0">募資倒數</h3>
-      <span class="statusNumber BalooTamma2 fw-bold fs-2">27 </span>
-      <span class="statusUnit fw-bold fs-4">天</span>
+      <span class="statusNumber BalooTamma2 fw-bold"
+        >27 <span class="statusUnit">天</span></span
+      >
     </div>
   </div>
   <OverviewIcons />
@@ -25,10 +25,12 @@
 .goal {
   color: #636057;
   font-size: 14px;
+  line-height: 20px;
 }
 
 .amountRaised {
   color: #494846;
+  line-height: 56px;
 }
 
 .statusHeading {
@@ -38,10 +40,17 @@
 
 .statusNumber {
   color: #494846;
+  font-size: 32px;
+  line-height: 56px;
 }
 
 .statusUnit {
-  color: #1f1e00;
-  line-height: 56px;
+  font-size: 24px;
+}
+
+@media (max-width: 576px) {
+  .amountRaised {
+    font-size: 32px !important;
+  }
 }
 </style>
