@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex gap-4 mb-3">
+  <div class="d-flex flex-wrap gap-x-4 gap-y-2 mb-3">
     <UTooltip text="收藏" :popper="{ placement: 'top', gpuAcceleration: true }">
       <div class="d-flex align-items-center">
         <img src="/icon/icon_good01.svg" class="icon mr-2 m-md-0" alt="收藏" />
