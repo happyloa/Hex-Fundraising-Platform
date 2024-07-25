@@ -3,7 +3,7 @@
   <p class="m-0">
     <span class="amountRaised BalooTamma2 fs-2 fw-bolder">$280,047</span>
   </p>
-  <ProductProgressBar />
+  <OverviewProgressBar />
   <div class="row mb-2">
     <div class="col-6">
       <h3 class="statusHeading m-0">贊助人數</h3>
