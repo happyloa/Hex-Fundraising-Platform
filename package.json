@@ -10,10 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/ui": "^2.17.0",
     "@nuxtjs/google-fonts": "^3.2.0",
+    "bootstrap": "^5.3.3",
     "nuxt": "^3.12.4",
-    "usebootstrap": "^3.5.19",
     "vue": "latest"
   },
   "devDependencies": {

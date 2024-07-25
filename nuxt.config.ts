@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
+  css: ["bootstrap/dist/css/bootstrap.min.css"],
   // 網站標題設定
   app: {
     head: {
@@ -9,12 +10,7 @@ export default defineNuxtConfig({
     },
   },
   // 使用到的套件
-  modules: [
-    "usebootstrap",
-    "@nuxtjs/google-fonts",
-    "@nuxt/ui",
-    "@vesp/nuxt-fontawesome",
-  ],
+  modules: ["@nuxtjs/google-fonts", "@vesp/nuxt-fontawesome"],
   // 網站上使用到的字型（來自 @nuxtjs/google-fonts）
   googleFonts: {
     families: {
