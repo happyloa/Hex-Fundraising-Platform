@@ -16,7 +16,7 @@
             alt="募資商品圖片" />
         </div>
         <div class="col-md-6">
-          <ProductInfo />
+          <OverviewInfo />
         </div>
       </div>
     </div>

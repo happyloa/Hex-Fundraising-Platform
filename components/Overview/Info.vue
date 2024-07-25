@@ -16,9 +16,9 @@
       <span class="statusUnit fw-bold fs-4">天</span>
     </div>
   </div>
-  <ProductIcons />
-  <ProductAnnouncement />
-  <ProductBtnGroup />
+  <OverviewIcons />
+  <OverviewAnnouncement />
+  <OverviewBtnGroup />
 </template>
 
 <style scoped>

@@ -1,3 +1,3 @@
 <template>
-  <ProductIntro />
+  <OverviewHero />
 </template>
