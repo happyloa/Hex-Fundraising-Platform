@@ -1,4 +1,15 @@
 <script setup>
+const { $bs } = useNuxtApp();
+
+onMounted(() => {
+  try {
+    const collapse = new $bs.Collapse("#navbarSupportedContent");
+    collapse.show();
+  } catch (e) {
+    console.log("Bootstrap error: ", e);
+  }
+});
+
 useHead({
   meta: [
     { name: "description", content: "六角學院募資平臺公開設計稿切版練習。" },
