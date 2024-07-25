@@ -8,9 +8,9 @@ useHead({
 
 <template>
   <NuxtRouteAnnouncer />
-  <LayoutHeader />
+  <AppHeader />
   <NuxtPage />
-  <LayoutFooter />
+  <AppFooter />
 </template>
 
 <style>
